@@ -1,6 +1,6 @@
 <style>
     .highlighted { 
-    	background: yellow; 
+    	background: green; 
     }
     .fa-sort-desc:hover{
     	color: #17a2b8;
