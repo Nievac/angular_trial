@@ -70,7 +70,7 @@
 						</tr>
 					</tbody>
 				</table>
-				<button class="btn" ng-click="prev_page()" ng-disabled="page==1">< PREV</button> {{ page }} <button class="btn" ng-click="next_page()" ng-disabled = "page == max_page || max_page == 0">NEXT ></button>
+				<button class="btn" ng-click="prev_page()" ng-disabled="page==1">< PREVIOUS</button> {{ page }} <button class="btn" ng-click="next_page()" ng-disabled = "page == max_page || max_page == 0">NEXT ></button>
 			</div>
 		</div>
 	</div>
