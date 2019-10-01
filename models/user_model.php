@@ -14,12 +14,12 @@ class user_model extends Model
 		$password = $_POST['password'];
 		
 		
-		$acc = DAOFactory::getTblUserDAO()->queryByUsername($username);
+		$accounts = DAOFactory::getTblUserDAO()->queryByUsername($username);
 		
-		if(!empty($acc))
+		if(!empty($accounts))
 		{
 			
-			foreach($acc as $each)
+			foreach($accounts as $each)
 			{
 				if($each->password == $password)
 				{
